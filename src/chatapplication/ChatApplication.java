@@ -14,11 +14,22 @@ public class ChatApplication {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        User user =  new Sender("john");
-       user.sendMessage("Hello everyone");
-       
-       Message message = new Message(user,"Hello everyone");
-       message.displayMessage();
+//        User user =  new Sender("john");
+//       user.sendMessage("Hello everyone");
+//       
+//       Message message = new Message(user,"Hello everyone");
+//       message.displayMessage();
+        
+    ChatRoom room = new ChatRoom();
+    
+    User user1 = new Sender("John");
+    
+    User user2 = new Sender("Sarah");
+    
+    room.addUser(user1);
+    room.addUser(user2);
+    
+    
     }
     
     
