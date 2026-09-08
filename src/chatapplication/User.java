@@ -23,6 +23,10 @@ public class User {
         this.name = name;
     }
     
+    public void sendMessage(String message){
+        System.out.println(name + "sent: " + message );
+    }
+    
     
     
 }

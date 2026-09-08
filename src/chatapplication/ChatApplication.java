@@ -15,7 +15,11 @@ public class ChatApplication {
      */
     public static void main(String[] args) {
         User user =  new Sender("john");
-        System.out.println(user.getName());
+       user.sendMessage("Hello everyone");
+       
+        User user1 =  new Sender("Sanga");
+        user1.sendMessage("Hello I am Kumar Sangakkara");
+
     }
     
 }

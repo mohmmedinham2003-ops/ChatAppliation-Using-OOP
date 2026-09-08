@@ -13,4 +13,8 @@ public class Sender extends User{
     public Sender(String name){
         super(name);
     }
+    public void sendMessage(String message){
+        System.out.println("Sender" + getName() + ": " + message);
+    }
+    
 }
