@@ -9,5 +9,15 @@ package chatapplication;
  * @author Inham
  */
 public class Message {
+    private User sender;
+    private String text;
+
+    public Message(User sender, String text) {
+        this.sender = sender;
+        this.text = text;
+    }
     
+    public void displayMessage(){
+        System.out.println(sender.getName() + ": " + text);
+    }
 }

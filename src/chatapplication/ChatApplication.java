@@ -17,9 +17,9 @@ public class ChatApplication {
         User user =  new Sender("john");
        user.sendMessage("Hello everyone");
        
-        User user1 =  new Sender("Sanga");
-        user1.sendMessage("Hello I am Kumar Sangakkara");
-
+       Message message = new Message(user,"Hello everyone");
+       message.displayMessage();
     }
+    
     
 }
