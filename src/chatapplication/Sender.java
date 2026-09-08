@@ -8,6 +8,9 @@ package chatapplication;
  *
  * @author Inham
  */
-public class Sender {
+public class Sender extends User{
     
+    public Sender(String name){
+        super(name);
+    }
 }
