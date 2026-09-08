@@ -14,7 +14,8 @@ public class ChatApplication {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        User user =  new Sender("john");
+        System.out.println(user.getName());
     }
     
 }
