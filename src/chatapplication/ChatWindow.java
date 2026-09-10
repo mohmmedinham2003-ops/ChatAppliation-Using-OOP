@@ -72,6 +72,11 @@ public class ChatWindow extends javax.swing.JFrame {
         btnSend.setText("SEND");
 
         btnAddSender.setText("ADD SENDER");
+        btnAddSender.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddSenderActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -112,6 +117,10 @@ public class ChatWindow extends javax.swing.JFrame {
     private void txtMessageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtMessageActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtMessageActionPerformed
+
+    private void btnAddSenderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddSenderActionPerformed
+new AddSender().setVisible(true);        // TODO add your handling code here:
+    }//GEN-LAST:event_btnAddSenderActionPerformed
 
     /**
      * @param args the command line arguments

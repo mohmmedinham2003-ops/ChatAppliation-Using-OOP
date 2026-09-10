@@ -5,12 +5,13 @@
 package chatapplication;
 
 import java.util.ArrayList;
+import javax.swing.JFrame;
 
 /**
  *
  * @author Inham
  */
-class ChatRoom {
+class ChatRoom{
 
     private ArrayList<User> users = new ArrayList<>();
     private ArrayList<Message> messages = new ArrayList<>();
@@ -30,5 +31,7 @@ class ChatRoom {
             message.displayMessage();
         }
     }
+
+ 
     
 }

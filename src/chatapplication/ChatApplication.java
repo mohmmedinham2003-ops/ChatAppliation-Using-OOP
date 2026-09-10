@@ -12,7 +12,7 @@ public class ChatApplication {
 
  
     public static void main(String[] args) {
-
+new ChatWindow().setVisible(true);
         ChatRoom room = new ChatRoom();
 
         User user1 = new Sender("John");
