@@ -20,6 +20,7 @@ class ChatRoom {
     }
 
     public void sendMessage(User user, String text) {
+        user.sendMessage(text);
         Message message = new Message(user, text);
         messages.add(message);
     }

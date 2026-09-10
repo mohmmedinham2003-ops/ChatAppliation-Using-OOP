@@ -23,9 +23,7 @@ public class ChatApplication {
 
         room.sendMessage(user1, "Hello everyone!");
         room.sendMessage(user2, "Hi John!");
-        
-        room.displayMessage();
-    
+            
     }
 }
     
